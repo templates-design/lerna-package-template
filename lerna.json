@@ -1,0 +1,30 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "npmClient": "npm",
+      "registry": "https://registry.npmjs.org/",
+      "ignoreChanges": ["package-lock.json", "*.lock", "CHANGELOG.md", ".npmrc"],
+      "allowBranch": ["master"],
+      "commitHooks": false,
+      "message": "chore(release): publish",
+      "conventionalCommits": true
+    },
+    "bootstrap": {
+      "npmClient": "npm"
+    }
+  },
+  "changelog": {
+    "repo": "zcorky/zodash",
+    "labels": {
+      "enchancement": ":rocket:(Enhancement)",
+      "bug": ":bug:(Bug Fix)",
+      "doc": ":doc:(Refine Doc)",
+      "feat": ":sparkles:(Feature)"
+    },
+    "cacheDir": ".changelog"
+  }
+}

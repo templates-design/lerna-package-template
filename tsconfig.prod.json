@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "es2018", // Node.js 10
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"jsx": "react",
+		"declaration": true,
+		"pretty": true,
+		"newLine": "lf",
+    // "stripInternal": true,
+		// "strict": true,
+		// "noImplicitReturns": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "noUncheckedIndexedAccess": true,
+		// "noPropertyAccessFromIndexSignature": true,
+    "noEmitOnError": true,
+    // "useDefineForClassFields": true,
+		// "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    //
+    //
+    "noImplicitAny": false,
+    // "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "lib": [
+      "DOM",
+      "es2015",
+      "es2016"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "__tests__",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
+ }
