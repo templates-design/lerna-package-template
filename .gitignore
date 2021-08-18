@@ -8,3 +8,5 @@ package-lock.json
 coverage/
 .npmrc
 yarn-error.log
+!yarn.lock
+examples/*/lib
